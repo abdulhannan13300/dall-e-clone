@@ -28,7 +28,7 @@ const CreatePost = () => {
       try {
         setGeneratingImg(true);
         // const response = await fetch("https://dall-e-2-0-lu9t.onrender.com/api/v1/dalle", {
-        const response = await fetch("https://dall-e-clone-00.vercel.app/api/v1/dalle", {
+        const response = await fetch("https://dall-e-clone-backend.vercel.app/api/v1/dalle", {
          
           method: "POST",
           headers: {
@@ -57,7 +57,7 @@ const CreatePost = () => {
 
       try {
         // const response = await fetch("https://dall-e-2-0-lu9t.onrender.com/api/v1/post", {
-        const response = await fetch("https://dall-e-clone-00.vercel.app/api/v1/post", {
+        const response = await fetch("https://dall-e-clone-backend.vercel.app/api/v1/post", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
